@@ -1,1 +1,15 @@
 theme: jekyll-theme-minimal
+#title: Learning Ground Traversability from Simulations
+#description: Complementary material for the RAL-ICRA 2018 submission
+#show_downloads: ["true" or "false" to indicate whether to provide a download URL]
+#google_analytics: [Your Google Analytics tracking ID]
+github:
+  is_project_page: false
+  is_user_page: false
+  owner_name: false
+
+personal:
+  name: Ricardo Omar Chavez Garcia
+
+collections:
+  - sections
