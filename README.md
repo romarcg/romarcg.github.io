@@ -42,7 +42,11 @@ The solution was part of a whole automotive application involving several car ma
 
 <iframe id="ytplayer" type="text/html" width="320" height="270" src="http://www.youtube.com/embed/tRdZBzfSMzk?autoplay=0&origin=http://www.romarcg.xyz"  frameborder="0"> </iframe>
 
+{% include youtubePlayer.html id=tRdZBzfSMzk %}
+
 <iframe id="ytplayer" type="text/html" width="320" height="270" src="http://www.youtube.com/embed/UZdwP-Z9mkA?autoplay=0&origin=http://www.romarcg.xyz"  frameborder="0"> </iframe>
+
+{% include youtubePlayer.html id=UZdwP-Z9mkA %}
 
 [Grenoble Informatics Laboratory](https://www.liglab.fr/en) <br/>
 [Université Grenoble Alpes](http://www.univ-grenoble-alpes.fr/)
