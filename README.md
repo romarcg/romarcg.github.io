@@ -3,10 +3,11 @@ I am a researcher working on multi-sensor stochastic methods for robotic semanti
 
 ## <a name="currentresearch"></a> Current research
 
-Mobile ground robots operating on unstructured terrain must predict which areas of the environment they are able to pass in order to plan feasible paths.
-We address traversability estimation as a heightmap classification problem: we build a convolutional neural network that, given an image representing the heightmap of a terrain patch, predicts whether the robot will be able to traverse such patch from left to right.
+We study the traversability problem for mobile robotics. For example, ground robots operating on unstructured terrain must predict which areas of the environment they are able to pass in order to plan feasible paths.
+We address traversability estimation for ground robots as a heightmap classification problem: we build a convolutional neural network that, given an image representing the heightmap of a terrain patch, predicts whether the robot will be able to traverse such patch from left to right.
 
-The classifier is trained for a specific robot model (wheeled, tracked, legged, snake-like) using simulation data on procedurally generated training terrains; the trained classifier can be applied to unseen large heightmaps to yield oriented traversability maps, and then plan traversable paths. We extensively evaluate the approach in simulation on six real-world elevation datasets, and run a real-robot validation in one indoor and one outdoor environment.
+The classifier is trained for a specific wheeled robot model using simulation data on procedurally generated training terrains; the trained classifier can be applied to unseen large heightmaps to yield oriented traversability maps, and then plan traversable paths.
+We extensively evaluate the approach in simulation on real-world elevation datasets, and run a real-robot validation for indoor and outdoor environments. Data and code to reproduce the results and media material can be found at [github](http://romarcg.xyz/traversability_estimation/).
 
 *Related videos:*
 
@@ -18,6 +19,9 @@ The classifier is trained for a specific robot model (wheeled, tracked, legged, 
 
 {% include vimeoPlayer.html id=224311892 width=320 height=270 %}
 
+&nbsp;
+
+[The National Centre of Competence in Research (NCCR) Robotics](https://www.nccr-robotics.ch/)
 
 &nbsp;
 
