@@ -8,8 +8,18 @@ We address traversability estimation as a heightmap classification problem: we b
 
 The classifier is trained for a specific robot model (wheeled, tracked, legged, snake-like) using simulation data on procedurally generated training terrains; the trained classifier can be applied to unseen large heightmaps to yield oriented traversability maps, and then plan traversable paths. We extensively evaluate the approach in simulation on six real-world elevation datasets, and run a real-robot validation in one indoor and one outdoor environment.
 
+*Related videos:*
+
+{% include vimeoPlayer.html id=247479519 width=320 height=270 %}
+
+{% include vimeoPlayer.html id=247478850 width=320 height=270 %}
+
+{% include vimeoPlayer.html id=224311774 width=320 height=270 %}
+
+{% include vimeoPlayer.html id=224311892 width=320 height=270 %}
 
 
+&nbsp;
 
 ## <a name="previousresearch"></a> Previous research
 
@@ -26,7 +36,6 @@ The learning process will consist in building sensorimotor representations of bo
 [University Pierre et Marie Curie](http://www.upmc.fr/en/) <br/>
 [The National Center for Scientific Research](http://www.cnrs.fr/)
 
-[&uarr;](#toppage)
 
 ### Multiple Sensor Fusion and Classification for Moving Object Detection and Tracking
 
@@ -81,15 +90,13 @@ The solution was part of a whole automotive application involving several car ma
 
 <div id="bibtex_display"></div>
 
-[&uarr;](#toppage)
+&nbsp;
 
 ## <a name="cv"></a> Curriculum vitae
 
 A pdf version is found [here](/docs/cv.pdf)
 
-[&uarr;](#toppage)
-
-
+&nbsp;
 
 ## <a name="contact"></a> Contact
 
@@ -119,6 +126,3 @@ A pdf version is found [here](/docs/cv.pdf)
 [rg]: https://www.researchgate.net/profile/Ricardo_Chavez-Garcia "My profile in ResearchGate"
 
 > [LinkedIn][linkedin] &nbsp; [Research Gate][rg] <br/>
-
-
-[&uarr;](#toppage)
