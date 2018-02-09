@@ -46,8 +46,6 @@ The learning process will consist in building sensorimotor representations of bo
 I worked on probabilistic and credibilist methods to fuse information from an heterogeneous array of sensors.
 Three modules were proposed and implemented to work simultaneously in a and Advance Driver Assistant System: multi-target object dectection, classification and tracking of multiple objects in dynamic scenarios.
 
-[//]: <> (>*### Responsible of the Perception sub-project - interactIVe (accident avoidance by active intervention for Intelligent Vehicles) IP European Project*)
-
 In the framework of the Perception inside [interactIVe](http://www.interactive-ip.eu/) (accident avoidance by active intervention for Intelligent Vehicles) IP European Project I proposed and developed a multi-sensor fusion solution software for a frontal object perception application. It involved: outdoor environment mapping; detection, tracking and classification of multiple objects of interest in different driving scenarios. Multiple sensor (lidar, camera and radar) fusion was at the core of the perception task.
 The solution was part of a whole automotive application involving several car manufacturers and suppliers inside *interactIVe* project.
 
@@ -60,14 +58,22 @@ The solution was part of a whole automotive application involving several car ma
 [Grenoble Informatics Laboratory](https://www.liglab.fr/en) <br/>
 [Université Grenoble Alpes](http://www.univ-grenoble-alpes.fr/)
 
-[&uarr;](#toppage)
-
 ## <a name="publications"></a> Publications
 
 <bibtex src="/docs/library.bib"></bibtex>
 
 <div class="bibtex_template">
-  <span class="title"></span>.
+  <span class="title"></s[//]: <> (>*Institut des Systèmes Intelligents et de Robotique (ISIR)* <br/>)
+
+[//]: <> (>*Université Pierre et Marie CURIE* <br/>)
+
+[//]: <> (> *Pyramide - T55/65* <br/>)
+
+[//]: <> (> *CC 173 - 4 Place Jussieu* <br/>)
+
+[//]: <> (> *75005 Paris* <br/>)
+
+[//]: <> (> chavez <i class="icon-at"></i> isir <i class="icon-point"></i> upmc <i class="icon-point"></i> fr <br/>)pan>.
   <span class="author"></span>.
   <span class="if journal">
     <span class="journal"></span>,
@@ -104,18 +110,6 @@ A pdf version is found [here](/docs/cv.pdf)
 
 ## <a name="contact"></a> Contact
 
-[//]: <> (>*Institut des Systèmes Intelligents et de Robotique (ISIR)* <br/>)
-
-[//]: <> (>*Université Pierre et Marie CURIE* <br/>)
-
-[//]: <> (> *Pyramide - T55/65* <br/>)
-
-[//]: <> (> *CC 173 - 4 Place Jussieu* <br/>)
-
-[//]: <> (> *75005 Paris* <br/>)
-
-[//]: <> (> chavez <i class="icon-at"></i> isir <i class="icon-point"></i> upmc <i class="icon-point"></i> fr <br/>)
-
 >*Dalle Molle Institute for Artificial Intelligence Research (IDSIA)* <br/>
 >*University of Applied Sciences and Arts of Southern Switzerland (SUPSI)<br/>*
 >*Università della Svizzera italiana* <br/>
@@ -124,7 +118,6 @@ A pdf version is found [here](/docs/cv.pdf)
 > *Switzerland* <br/>
 > omar ![arr](images/icon-at-s.png "arr") idsia ![arr](images/icon-point-s.png "poi") ch <br/>
 
-[//]: <> (>*Scuola Universitaria Professionale della Svizzera Italiana<br/>*)
 
 [linkedin]: https://fr.linkedin.com/in/ricardo-omar-chavez-garcia-029b5734 "My profile in LinkedIn"
 [rg]: https://www.researchgate.net/profile/Ricardo_Chavez-Garcia "My profile in ResearchGate"
