@@ -63,17 +63,7 @@ The solution was part of a whole automotive application involving several car ma
 <bibtex src="/docs/library.bib"></bibtex>
 
 <div class="bibtex_template">
-  <span class="title"></s[//]: <> (>*Institut des Systèmes Intelligents et de Robotique (ISIR)* <br/>)
-
-[//]: <> (>*Université Pierre et Marie CURIE* <br/>)
-
-[//]: <> (> *Pyramide - T55/65* <br/>)
-
-[//]: <> (> *CC 173 - 4 Place Jussieu* <br/>)
-
-[//]: <> (> *75005 Paris* <br/>)
-
-[//]: <> (> chavez <i class="icon-at"></i> isir <i class="icon-point"></i> upmc <i class="icon-point"></i> fr <br/>)pan>.
+  <span class="title"></span>.
   <span class="author"></span>.
   <span class="if journal">
     <span class="journal"></span>,
