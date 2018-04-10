@@ -8,67 +8,65 @@ html{
 }
 
 body {
-  background-color: #f6f6f6;
+  background-color: hsl(0, 0%, 96%);
   padding:0px;
   margin:0px;
   font-family: 'Lora', serif;
-  font-size: 18px;
+  font-size: 0.989em;
   line-height: 1.5;
-  color:#666;
-  font-weight:400;
+  color: hsla(200,0%,0%,0.8);
+  font-weight: 400;
 }
 
-h1, h2, h3, h4, h5, h6 {
-  color:#222;
+h2, h3, h4, h5, h6 {
+  color:hsla(200,0%,0%,0.6);
   margin:0 0 20px;
   font-family: 'Lora', serif;
   font-weight: normal;
+  font-style: italic;  
+}
+
+h2{
+  color: hsla(200,0%,0%,0.7);
 }
 
 p, ul, ol, table, pre, dl {
   margin:0 0 20px;
 }
 
-h1, h2, h3 {
+h2, h3 {
   line-height:1.1;
 }
 
 h1 {
-  font-size:28px;
-}
-
-h2 {
-  color:#393939;
-}
-
-h3, h4, h5, h6 {
-  color:#494949;
+  color:hsla(200,0%,0%,0.9);
+  line-height:1.2;
 }
 
 a {
-  color:#267CB9;
+  color: hsla(205, 66%, 44%, 0.9);
   text-decoration:none;
 }
 
 a:hover, a:focus {
-  color:#069;
+  color: hsla(205, 66%, 44%, 1.0);
   font-weight: bold;
 }
 
 a small {
-  font-size:11px;
-  color:#777;
+  font-size:0.611em;
+  color: hsla(205, 66%, 44%, 0.9);
   margin-top:-0.3em;
   display:block;
 }
 
 a:hover small {
-  color:#777;
+  color: hsla(205, 66%, 44%, 1.0);
 }
 
 .wrapper {
   background-color: #fff;
-  width:45em;
+  width:50em;
   margin:0 auto;
   overflow: auto;
   padding: 1em 2em 2em;
@@ -148,10 +146,10 @@ header p img{
 
 header h1{
   width: auto;
-  margin-bottom: 0.3em;
-  font-size: 1.8em;
+  margin-bottom: 0.4em;
+  font-size: 1.6em;
   text-align: start;
-  font-weight: normal;
+  font-weight: 700;
   display:block;
   font-style: italic;
 }
@@ -161,8 +159,9 @@ header blockquote{
   width: auto;
   margin-left: 0.3em;
   align-content: flex-start;
-  font-style: italic;
+  font-style: italic;  
   vertical-align: top;
+  font-size: 0.989em;
 }
 
 header blockquote p{
@@ -171,9 +170,8 @@ header blockquote p{
 
 header ul {
   list-style:none;
-  height:40px;
+  height:50px;
   padding:0;
-  background: #f4f4f4;
   border-radius:5px;
   border:1px solid #e0e0e0;
   width:auto;
@@ -183,7 +181,7 @@ header li {
   width:89px;
   float:left;
   border-right:1px solid #e0e0e0;
-  height:40px;
+  height:50px;
 }
 
 header li:first-child a {
@@ -196,19 +194,19 @@ header li:last-child a {
 
 header ul a {
   line-height:1;
-  color:#676767;
+  color: hsla(205, 66%, 44%, 0.9);
   display:block;
   padding-top:6px;
-  height:34px;
+  height:40px;
 }
 
 header ul a:hover, header ul a:focus {
-  color:#675C5C;
+  color: hsla(205, 66%, 44%, 1.0);
   font-weight:bold;
 }
 
 header ul a:active {
-  background-color:#f0f0f0;
+  background-color: #f0f0f0;
 }
 
 /* shrinking*/
@@ -219,7 +217,7 @@ header ul a:active {
 
 .shrink h1{
   width: 9em;
-  font-size: 1.2em;
+  font-size: 0.989em;
 }
 
 .shrink img[alt~="me_img"] {
@@ -228,14 +226,14 @@ header ul a:active {
 
 .shrink blockquote p{
   display: flex;
-  font-size: 18px;
+  font-size: 0.989em;
 }
 
 /**/
 
 strong {
-  color:#222;
-  font-weight:400;
+  color:hsla(200,0%,0%,0.7);;
+  font-weight:700;
 }
 
 header ul li + li + li {
@@ -244,14 +242,15 @@ header ul li + li + li {
 }
 
 header ul a strong {
-  font-size:14px;
+  font-size:0.989em;
   display:block;
-  color:#222;
+  color: hsla(200,0%,0%,0.6);;
+  font-weight: 700;
 }
 
 section {
   width:auto;
-  margin: 15em 0 auto;
+  margin: 16em 0 auto;
   padding-bottom:10px;
 }
 
@@ -260,7 +259,7 @@ section p{
 }
 
 small {
-  font-size:11px;
+  font-size: 0.378em;
 }
 
 hr {
@@ -311,17 +310,28 @@ footer {  float:none;
 
 @media print, screen and (max-width: 960px) {
 
-  body {
-    font-size: 16px;
-  }
-
   div.wrapper{
-    width: 100%;
-    margin: 0;
+    width: 95%;
+    padding: 2.5%;
+  }
+  
+  header blockquote{
+    font-size: 0.989em;
   }
 
-  header blockquote{
-    font-size: 18px;
+  .shrink{
+    padding: 1em 0;
+    display: flex;
+  }
+  
+  .shrink blockquote p{
+    display: flex;
+    font-size: 0.989em;
+  }
+
+  .shrink h1{
+    width: 9em;
+    font-size: 0.989em;
   }
 
   img[alt~="me_img"]{
@@ -337,18 +347,24 @@ footer {  float:none;
 }
 
 @media print, screen and (max-width: 720px) {
-  body {
-    word-wrap:break-word;
-    font-size: 14px;
+  div.wrapper{
+    width: 95%;
+    padding: 2.5%;
   }
-
+  
   header blockquote{
-    font-size: 16px;
+    font-size: 0.989em;
   }
 
   .shrink blockquote p{
     display: flex;
-    font-size: 14px;
+    font-size: 0.989em;
+
+  }
+
+  .shrink h1{
+    width: 4em;
+    font-size: 0.989em;
   }
 
   img[alt~="me_img"]{
@@ -364,17 +380,17 @@ footer {  float:none;
 }
 
 @media print, screen and (max-width: 480px) {
-  body {
-    word-wrap:break-word;
-    font-size: 12px;
+  div.wrapper{
+    width: 95%;
+    padding: 2.5%;
   }
 
   header h1{
-    font-size: 1.7em;
+    font-size: 0.989em;
   }
 
   header blockquote{
-    font-size: 14px;
+    font-size: 0.989em;
   }
 
   img[alt~="me_img"]{
@@ -394,13 +410,13 @@ footer {  float:none;
   }
 
   .shrink h1{
-    width: 6em;
-    font-size: 1.2em;
+    width: 5em;
+    font-size: 0.611em;
   }
 
   .shrink blockquote p{
     display: flex;
-    font-size: 10px;
+    font-size: 0.611em;
   }
 
   /**/
