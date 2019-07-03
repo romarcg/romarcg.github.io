@@ -1,5 +1,5 @@
 
-I am a researcher working on multi-sensor stochastic methods for robotic semantic perception. My current work focus on learning sensorimotor representations for scene understanding through the interaction of perception and action processes. I am interested on proposing and developing intelligent systems and robotic platforms that interact with the real world.
+I am a researcher working on multi-sensor stochastic methods for robotic semantic perception. My current work focuses on learning sensorimotor representations for scene understanding through the interaction of perception and action processes. I am interested on proposing and developing intelligent systems and robotic platforms that interact with the real world.
 
 ## <a name="currentresearch"></a> Current research
 
@@ -43,10 +43,10 @@ The learning process will consist in building sensorimotor representations of bo
 
 ### Multiple Sensor Fusion and Classification for Moving Object Detection and Tracking
 
-I worked on probabilistic and credibilist methods to fuse information from an heterogeneous array of sensors.
-Three modules were proposed and implemented to work simultaneously in a and Advance Driver Assistant System: multi-target object dectection, classification and tracking of multiple objects in dynamic scenarios.
+I worked on probabilistic and credibilist methods to fuse information from a heterogeneous array of sensors.
+Three modules were proposed and implemented to work simultaneously in a and Advance Driver Assistant System: multi-target object detection, classification and tracking of multiple objects in dynamic scenarios.
 
-In the framework of *perception* inside [interactIVe](http://www.interactive-ip.eu/) (accident avoidance by active intervention for Intelligent Vehicles) IP European Project I proposed and developed a multi-sensor fusion solution software for a frontal object perception application. It involved: outdoor environment mapping; detection, tracking and classification of multiple objects of interest in different driving scenarios. Multiple sensor (lidar, camera and radar) fusion was at the core of the perception task.
+In the framework of *perception* inside [interactIVe](http://www.interactive-ip.eu/) (accident avoidance by active intervention for Intelligent Vehicles) IP European Project I proposed and developed a multi-sensor fusion solution software for a frontal object perception application. It involved: outdoor environment mapping; detection, tracking and classification of multiple objects of interest in different driving scenarios. Multiple sensors (lidar, camera and radar) fusion was at the core of the perception task.
 The solution was part of a whole automotive application involving several car manufacturers and suppliers inside *interactIVe* project.
 
 *Related videos:*
